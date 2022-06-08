@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "composite": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "outDir": "compiled",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "esnext"
+    ],
+    "types": [
+      "jest",
+      "node",
+      "vue",
+    ]
+  },
+  "compileOnSave": true,
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "./*.vue",
+    "**/*.js",
+    "**/.*.js",
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
