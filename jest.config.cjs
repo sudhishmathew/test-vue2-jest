@@ -2,7 +2,6 @@
 
 module.exports = {
   rootDir: 'src',
-  testEnvironment: 'jest-environment-jsdom',
   setupFilesAfterEnv: ['<rootDir>/failTestOnConsoleError.ts'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'mjs', 'json', 'vue', 'node'],
   transform: {
